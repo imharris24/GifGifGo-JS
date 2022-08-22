@@ -1,29 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-	<head>
-	<meta charset="utf-8">
-	<title>Gif Search Engine</title>
-	</head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
-
-	<h1 id="mr-javascript">I'm Mr. JavaScript</h1>
-	<a href="#" id="anchor">Hey JavaScript, how ya feeling?</a>
-
-	<script>
-
-	    var anchor = document.getElementById('anchor');
-	    anchor.addEventListener('click',function(){
-
-	    	//alert("I'm so gooood!");
-	    	var name = document.getElementById('mr-javascript');
-	    	//console.log(name);
-	    	name.innerHTML = "Not good bah!";
-
-	    	});
-
-	</script>
-
+    <h1 id="name-id"></h1>
+    <script>
+        var name = prompt("What is Your Name?");
+        var name_element = document.getElementById("name-id");
+        name_element.innerHTML=name;
+    </script>
 </body>
 </html>
