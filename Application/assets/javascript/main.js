@@ -14,18 +14,15 @@ document.querySelector("button").addEventListener('click', function() {
 
     GiphyAJAXCall.addEventListener('load', function(e){
         var data = e.target.response;
-        PushToMain(data);
-    });
-});
-
-function PushToMain(input) {
-    var response = JSON.parse(input);
+        var response = JSON.parse(data);
     var imageUrls = response.data;
 
     imageUrls.forEach(function(image){
         var src = image.images.fixed_height.url;
         var container = document.querySelector(".gif-container");
-        console.log(src);
         container.innerHTML += "<img src=\"" + src + "\" class=\"image-container\">";
     });
-}
+    });
+});
+
+    
