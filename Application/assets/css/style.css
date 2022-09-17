@@ -3,7 +3,10 @@ body {
     margin: 0 0 0 0;
 }
 .gif-container {
-    background-color: aqua;
+    padding: 10px;
+}
+.image-container {
+    margin: 10px;
 }
 .header-section {
     background-color: #FF6600;
