@@ -1,1 +1,0 @@
-Simple search engine for searching gifs through out the internet using vanilla Javascript.
