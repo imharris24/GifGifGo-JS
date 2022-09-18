@@ -1,0 +1,60 @@
+body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.gif-container {
+    padding: 10px;
+}
+.image-container {
+    margin: 10px;
+}
+.header-section {
+    background-color: #FF6600;
+    margin: 0px 0px 0px 0px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+* {
+    box-sizing: border-box;
+  }
+  form.search-bar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  form.search-bar button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: white;
+    color: #FF6600;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  form.search-bar button:hover {
+    background: #ff9752;
+  }
+  form.search-bar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
