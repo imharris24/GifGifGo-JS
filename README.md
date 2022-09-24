@@ -45,7 +45,9 @@ Here are some related projects,
 
 [Cricket Academy Manager](https://github.com/imharris24/CAM-WEB)
 
-[Cricket Academy Manager](https://github.com/imharris24/RockPaperScissors-JS)
+[Rock Paper Scissors](https://github.com/imharris24/RockPaperScissors-JS)
+
+[Match The Cards](https://github.com/imharris24/MatchTheCards-JS)
 
 
 ## Authors
