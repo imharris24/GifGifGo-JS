@@ -1,4 +1,4 @@
-document.querySelector("button").addEventListener('click', function() {
+document.querySelector("button").addEventListener('click', ()=> {
     var input = document.querySelector("input").value;
 
     var api_key = "X21mpSOykjswkRD7fetIw8Mj00fH0OaT";
