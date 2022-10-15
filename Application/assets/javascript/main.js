@@ -1,4 +1,4 @@
-document.querySelector("button").addEventListener('click', ()=> {
+document.querySelector("button").addEventListener('click', () => {
     var input = document.querySelector("input").value;
 
     var api_key = "X21mpSOykjswkRD7fetIw8Mj00fH0OaT";
@@ -10,7 +10,7 @@ document.querySelector("button").addEventListener('click', ()=> {
     GiphyAJAXCall.open( 'GET', url );
     GiphyAJAXCall.send()
 
-    GiphyAJAXCall.addEventListener('load', function(e){
+    GiphyAJAXCall.addEventListener('load', (e) => {
         var data = e.target.response;
         var response = JSON.parse(data);
     var imageUrls = response.data;
@@ -18,7 +18,7 @@ document.querySelector("button").addEventListener('click', ()=> {
     var container = document.querySelector(".gif-container");
     container.innerHTML = ' ';
 
-    imageUrls.forEach(function(image){
+    imageUrls.forEach((image) => {
         var src = image.images.fixed_height.url;
         container.innerHTML += "<img src=\"" + src + "\" class=\"image-container\">";
     });
