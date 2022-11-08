@@ -43,7 +43,7 @@ JavaScript.
 
 Here are some related projects,
 
-[Cricket Academy Manager](https://github.com/imharris24/CAM-WEB)
+[Stopwatch](https://github.com/imharris24/Stopwatch)
 
 [Rock Paper Scissors](https://github.com/imharris24/RockPaperScissors-JS)
 
