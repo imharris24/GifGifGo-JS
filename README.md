@@ -43,7 +43,7 @@ JavaScript.
 
 Here are some related projects,
 
-[Stopwatch](https://github.com/imharris24/Stopwatch)
+[Stopwatch](https://github.com/imharris24/Stopwatch-JS)
 
 [Rock Paper Scissors](https://github.com/imharris24/RockPaperScissors-JS)
 
