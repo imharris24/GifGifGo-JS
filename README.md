@@ -18,9 +18,9 @@ JavaScript.
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/imharris24/GifGifGo-JS/main/Screenshots/SC001.png)
+![App Screenshot](https://raw.githubusercontent.com/imharris24/GifGifGo-JS/main/screenshot/scr01.png)
 
-![App Screenshot](https://raw.githubusercontent.com/imharris24/GifGifGo-JS/main/Screenshots/SC002.png)
+![App Screenshot](https://raw.githubusercontent.com/imharris24/GifGifGo-JS/main/screenshot/scr02.png)
 
 
 ## Tech Stack
@@ -34,7 +34,7 @@ JavaScript.
 
 ## How to run this application?
 
-- Download application folder from this repository.
+- Download src folder from this repository.
 - Open index.html with any browser.
 
 
