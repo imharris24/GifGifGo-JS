@@ -47,7 +47,7 @@ Here are some related projects,
 
 [Rock Paper Scissors](https://github.com/imharris24/RockPaperScissors-JS)
 
-[Match The Cards](https://github.com/imharris24/MatchTheCards-JS)
+[Card Game](https://github.com/imharris24/Card-Game-JS)
 
 
 ## Authors
